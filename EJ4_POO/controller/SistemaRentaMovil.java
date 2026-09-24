@@ -1,7 +1,12 @@
-package EJ4_POO;
+package EJ4_POO.controller;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import EJ4_POO.model.Automovil;
+import EJ4_POO.model.CamionetaCarga;
+import EJ4_POO.model.Motocicleta;
+import EJ4_POO.model.Vehiculo;
 
 // Composicion
 public class SistemaRentaMovil {

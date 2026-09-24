@@ -1,4 +1,5 @@
-package EJ4_POO;
+package EJ4_POO.model;
+
 // Herencia
 public class Motocicleta extends Vehiculo {
     private int cilindraje;

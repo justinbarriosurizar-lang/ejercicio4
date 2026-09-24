@@ -1,4 +1,4 @@
-package EJ4_POO;
+package EJ4_POO.model;
 
 public abstract class Vehiculo {
     protected String placa;
