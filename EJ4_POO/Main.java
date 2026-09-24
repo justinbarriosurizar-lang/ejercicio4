@@ -8,12 +8,12 @@ public class Main {
         SistemaRentaMovil sistema = new SistemaRentaMovil();
         Scanner sc = new Scanner(System.in);
 
-        sistema.agregarVehiculo(new Automovil("P001AAA", "Toyota", "Yaris", 150.0, 5, false));
-        sistema.agregarVehiculo(new Automovil("P002BBB", "Honda", "Civic", 200.0, 5, true));
-        sistema.agregarVehiculo(new Motocicleta("M001CCC", "Yamaha", "R3", 100.0, 321));
-        sistema.agregarVehiculo(new Motocicleta("M002DDD", "Suzuki", "GN125", 80.0, 125));
-        sistema.agregarVehiculo(new CamionetaCarga("C001EEE", "Isuzu", "Forward", 200.0, 1.5));
-        sistema.agregarVehiculo(new CamionetaCarga("C002FFF", "Hino", "Dutro", 250.0, 3.0));
+        sistema.agregarVehiculo(new Automovil("P343LOL", "Toyota", "Yaris", 150.0, 5, false));
+        sistema.agregarVehiculo(new Automovil("P222JNS", "Honda", "Civic", 200.0, 5, true));
+        sistema.agregarVehiculo(new Motocicleta("M002LSD", "Yamaha", "R3", 100.0, 321));
+        sistema.agregarVehiculo(new Motocicleta("M125SEK", "Suzuki", "GN125", 80.0, 125));
+        sistema.agregarVehiculo(new CamionetaCarga("C980NMO", "Isuzu", "Forward", 200.0, 1.5));
+        sistema.agregarVehiculo(new CamionetaCarga("C444QNS", "Hino", "Dutro", 250.0, 3.0));
 
         boolean salir = false;
         while (!salir) {
