@@ -60,12 +60,12 @@ public class SistemaRentaMovil {
     }
 
     public boolean registrarDevolucion(String placa) {
-        Vehiculo v = buscarVehiculo(placa);
-        if (v != null && !v.isDisponible()) {
-            return v.registrarDevolucion();
-        }
-        return false;
+    Vehiculo v = buscarVehiculo(placa);
+    if (v != null) {
+        return v.registrarDevolucion(); // Vehiculose encarga de er si se puede o no
     }
+    return false; // Retorna false si la placa no existe
+}
 
     public String generarReporte() {
         int autoDisp = 0, autoAlq = 0;

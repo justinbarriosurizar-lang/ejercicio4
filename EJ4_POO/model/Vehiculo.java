@@ -16,22 +16,20 @@ public abstract class Vehiculo {
     }
     public abstract double calcularCosto(int dias);
 
-    public boolean registrarAlquiler(){
-        if (this.disponible){
-            this.disponible = false;
-            return true;
-        }
-        return false;
+    public boolean registrarAlquiler() {
+    if (this.disponible) {
+        this.disponible = false; 
+        return true;             
     }
-
-    public boolean registrarDevolucion(){
-        if (!this.disponible){
-            this.disponible = true;
-        
-        }
-    
-        return false;
+    return false;
+}
+    public boolean registrarDevolucion() {
+    if (!this.disponible) { 
+        this.disponible = true; 
+        return true;           
     }
+    return false; 
+}
 
     public String getPlaca(){
         return placa;
